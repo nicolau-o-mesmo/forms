@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+    <fieldset>
+        <legend for="">produto</legend>
+        <label for="">produto:</label>
+        <input type="text" id="iproduto" name="txtproduto" placeholder="digite seu nome">
+        <br>
+        <label for="">data de cadastro:</label>
+        <input type="date" id="idatacad" name="ddatacad">
+        <br>
+        <label for="ipeso">peso:</label>
+        <input type="number" id="icpeso" name="emcpeso">
+        <br>
+        <label for="icategoria">categoria:</label>
+        <select name="slcategoria" id="icategoria">
+            <option value="m">mouse</option>
+            <option value="e">eletronico</option>
+            <option value="h">Helicóptero de ataque Boeing AH-64 Apache</option>
+        </select>
+        <br>
+        <label for="">tipo</label>
+        <input type="radio" name="rtipo" id="inovo" value="n">
+        <label for="inovo">novo</label>
+        <input type="radio" name="rtipo" id="iusado" value="u">
+        <label for="itipo">usado</label>
+        <br>
+        <label for="iava">avaliação (0-10)</label>
+        <input type="range" name="iava" id="iava" aria-valuemin="0" aria-valuemax="10">
+
+
+        <label for="ifale">descrição:</label>
+        <textarea name="txdescrisão" id="ifale" cols="30" rows="10"></textarea>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPAR">
+
+    </fieldset>
+</body>
+</html>
